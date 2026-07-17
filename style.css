@@ -94,3 +94,48 @@ footer{
     padding:20px;
     margin-top:50px;
 }
+.hero{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    padding:100px 20px;
+    text-align:center;
+    color:#fff;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.search-box input{
+    width:450px;
+    max-width:90%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.search-box button{
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    background:#22c55e;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:bold;
+}
